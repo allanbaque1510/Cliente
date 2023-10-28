@@ -6,6 +6,7 @@ const NavBar = ({busqueda,setBusqueda}) => {
             busqueda? setBusqueda(false) : setBusqueda(true)
         }
     },[])
+    
   return (
 
     <nav>

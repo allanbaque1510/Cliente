@@ -5,7 +5,7 @@ import Products from './components/Products'
 import { useEffect, useState } from 'react'
 function App() {
   const [busqueda, setBusqueda] = useState(false)
-  
+
 
   return (
     <div className='h-screen w-full'>
@@ -14,7 +14,9 @@ function App() {
         busqueda={busqueda}
       />
       {busqueda ? <Busqueda/> : null}
-      <Products/>
+      <div className="m-5">
+        <Products/>
+      </div>
 
     </div>
   )
