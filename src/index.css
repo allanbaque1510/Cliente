@@ -9,3 +9,16 @@
     grid-gap: 10px; 
     transition: all .8s ease;
 }
+
+.contenedor-cards{
+    max-height: 200px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 20px;
+    
+}
+.contenedor-cards img{
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    min-height: 100px;
+}

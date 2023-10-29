@@ -10,6 +10,7 @@ const NavBar = ({busqueda,setBusqueda}) => {
   return (
 
     <nav>
+
         <div className='flex bg-orange-400 justify-between text-white font-bold'>
             <input 
                 type="search" 
