@@ -12,7 +12,7 @@ const Carrito = ({productos}) => {
     
     console.log(productos)
   return (
-    <div className=" bg-orange-600 fixed bottom-0   w-full ">
+    <div className=" bg-white fixed bottom-0   w-full ">
         <div className="flex justify-center items-center">
             <div className=" bg-white rounded-xl m-4 flex flex-row overflow max-w-xl ">
                 {data? <Slider
