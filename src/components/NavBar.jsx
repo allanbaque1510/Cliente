@@ -17,11 +17,11 @@ const NavBar = ({busqueda,setBusqueda}) => {
                 id="busqueda" 
                 className='w-80 px-4s border m-1 p-2 rounded-xl'
             />
-            <button
+            {/* <button
                 onClick={(e) => setBusqueda(!busqueda)}
             >
                 busqueda Avanzada
-            </button>
+            </button> */}
             <nav>
                 <li className='flex flex-row p-2 gap-4 px-3'>                    
                     <ul>Home</ul>

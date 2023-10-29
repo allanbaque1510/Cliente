@@ -13,8 +13,8 @@ function App() {
         setBusqueda={setBusqueda}
         busqueda={busqueda}
       />
-      {busqueda ? <Busqueda/> : null}
-      <div className="m-5">
+      {/*busqueda ? <Busqueda/> : null*/}
+      <div className="m-4">
         <Products/>
       </div>
 
